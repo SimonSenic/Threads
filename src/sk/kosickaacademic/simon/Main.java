@@ -30,7 +30,7 @@ public class Main {
                 try{
                     System.out.println("Thread consumer is running.");
                     Thread.sleep(5000);
-                    notify();
+                    //notify();
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }
